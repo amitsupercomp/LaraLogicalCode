@@ -1,0 +1,45 @@
+. 	There are four inner classes are available----
+		non static, static, local inner class, annonymous inner class.
+ 	Any class can be used anywhere if the usage is data type usage.
+ 	Outer class can not be static only inner class can be static.
+ 	For the data type purpose any class can be used anywhere.
+ 	Outer classes only two access level --->>> 	public and default.
+ 	Inner class can be public, private , protected and default.
+ 	Inner class can be static but outer class cant be.
+ 	
+ 	While using inner class of one in another class for data type purpose---->>> Outer.inner class		Test.A  Test.B (no matter of static or non static)
+ 	
+ 	Method always should be a member of a class. IIB, SIB, Constructor and inside a method, We can not define a method.
+ 	
+ 	Inside a method, We can  design a class and in construtor as well.
+ 	Resuing one part of the method again and again in the same method then we define local inner classes.
+ 	Local inner class cant be static, public, protected and private.
+ 	Inside a method body We can not use static and we can not use access modifier except default.
+ 	For local inner class, class file is also generate.
+ 	We can not use local variable in local inner class which is not define as final.
+ 	 
+ 	
+ 	
+ 	Static should be a class member.
+ 	
+ 	
+ 	Annonymous Inner Class--->>>> inner class without a name is called as Annonymous inner class.
+ 	You can not develop annonymous inner class without mentioning who is superclass or superInterface name.
+ 	For annonymous super class, we can create only one Object. Annonymous inner classes are  for one Object purpose.
+ 	Annonymous inner class should be concrete. It should not have any abstract method. because we can create Object only once.
+ 	We can develop a subclass without extends and implements.
+ 	By default annonymous inner class is final for avoiding to create subclass.
+ 	We can not develop a constructor in the anonymous inner class.
+ 	Only IIBs are the option to initialize non static members.
+ 	The new members of anonymous inner class can not be used from outside a anonymous inner class.
+ 	We can not access new member of anonymous inner class by corresponding reference because reference variable is type of Superclass type.
+ 	and it does not have new member.
+ 	Anonymous inner class should end with semicolom. Its part of the syntax.
+ 	Compiler will keep corresponding super calling statement in Anonymous inner class.
+ 	 
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	

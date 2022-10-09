@@ -1,0 +1,57 @@
+Interface can become a member of the java file.
+
+When compiling compiler generates class file to the interface also.
+
+It can have only abstract method and don't have constructor.
+we can not create an object of Interface.
+
+Wherever data type is required, use an interface.
+
+inside an interface can have abstract methods and constant methods.
+
+Constant is an attribute with a public, static and final keyword.
+
+If any attribute is final that can not be change further.
+
+Every member of the interface is public by default.
+
+final variable should be initialize in interface.
+
+Every method of interface is the public and abstract by default. Every method of interface should end with semi cloumn.
+
+Interface member can not be private can not be protected.
+
+In the interface body default is act as a public.
+
+By default every attribute of interface is public static final.
+
+All abstract methods should implemented in main class
+
+Interface methods can have any return type and argument.
+
+You can not reduce the visibility of method, means every method access modifier should be a public.
+
+Same class can be implemented any number of super interfaces.
+It is called multiple inheritance.
+
+Same class implemnting with more than one interface.
+Java supports multiple inheritance only through interface.
+
+Java is not supporting multiple inheritance through classes. Java syntax is not allowed to implement more than class is not allowed.
+
+Interface -->>> We can not develop any interface by mentioning super member of a class.
+
+There is no syntax to inherit class into a interface until 1.7JDK.
+
+
+
+
+
+
+
+
+
+
+
+
+

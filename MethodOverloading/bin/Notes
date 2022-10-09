@@ -1,0 +1,19 @@
+Developing multiple methods with the same name but with different signature. it is method overloading.
+Overloaded methods can have any return type.
+Overloaded methods can have any access level.(public private protected default)
+Overloaded method can be static or non static.
+Overloaded method can be abstract and non abstract.    *******
+Overloaded method can be final or non final.
+we can overload inherited method also.
+
+
+
+If superclass method and subclass method same name and same signature, then it is Method Overriding.
+return type should be same.
+access level should be same or wider.
+static should override with static only and non-static should override with non-static only.
+final method can't be override.
+abstract method should override with a non abstract method.
+
+
+Superclass is variant and sub class is co-variant.

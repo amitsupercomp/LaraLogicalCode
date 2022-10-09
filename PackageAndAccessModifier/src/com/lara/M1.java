@@ -1,0 +1,9 @@
+package com.lara;
+
+public class M1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("com.lara.M1");
+	}
+}

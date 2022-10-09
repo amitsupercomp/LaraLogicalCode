@@ -1,0 +1,8 @@
+Constructor should be non-static member.
+All entities is representing to class in programming language.
+Likewise, Every entity will have property and behavoiur .
+Properties of the entity representing through attributes to the class.
+Behaviours of the entity represents with methods in the class.
+Encapsulating entity members in the class, called as encapsulation.
+Requirement of class:- Without a class you can not achieve encapsulation.
+Encapsulation: 1 entity one class: one to one mapping.

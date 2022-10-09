@@ -1,0 +1,33 @@
+->>>>>>   		You can achieve an abstraction by using abstraction and interface.
+
+you can have concrete and abstract methods in abstract class. Concrete method is a defined method, implemented method. 
+Abstract method is called as declared method means it doesn't have body.
+
+declared method should end with semi column without curly brace opening and closing. 
+This type of method should declare as an abstract. It should be in abstract.
+
+Why--->>>> When you are not sure about the functioning that time you should use abstract method.
+
+Incompleteness can be represented as abstract keyword.
+
+if class contains minimum one abstract method, then it should be declare as an abstract class.
+
+You can't create Object of an abstract class, but we can create reference.
+
+abstract is only for incompleteness.
+
+abstract class is used as class type purpose, wherever data type is required we can use as abstract class.
+
+
+-------------------------scenario---------------------
+Company Samsung
+they are not taking care off sim card  and  application----for sim card and appliction they provide abstract method for such things.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+	If any abnormal condition happened while executing, then exception object raised.
+	The raised exception object should be handled some how to continue the flow.
+	If raised exception of the object not getting handled, then flow will be terminated. 
+	If java statement is producing an abnormal condition then it will give an exception. 
+	Abnormal condition is due to external resources then error object.
+	something/0 ==>> ArithmeticException
+	looking out of boundary from an array ==> ArrayIndexOutOfBoundsException
+	calling methods or refering attributes from a null reference ==> NullPointerException
+	Converting String into number and string containing alphabets or spl chars ==>> NumberFormatException
+	recursive invocation ==>>> StackOverFlowError
+	Heap Memory insufficient ==> OutofMemoryError
+	Specified class not available ==>> NoclassDefFoundError
+	Specified field not available ==>> NoSuchFieldError
+	Specified method not available ==>>NoSuchMethodError
+	if abnormal condition is due to java statement  ==>>> Exception Object
+	if abnormal condition is due to external resources  ==>>>Error Object
+	
+	Why do we required Exceptional Handling
+	----------------------------------------------
+	For graceful ending of the program, We need exceptional handling.
+	
+	
+	We can develop any number of statements inside a try block.
+	We can develop any type of statement inside a try block.
+	but try is mainly for abnormal condition statements. Develop all abnormal condition statement inside a try.
+	keep a catch after try.
+	Every catch should take one argument. This argument should be a Throwable type.
+	Catches are for handling Exception or Error Objects.
+	Whenever Exception/Error Object is rising inside a try, then directly looking for compatible catch.
+	If compatible catch is available, then rised exception/error object is getting handled through the same catch.
+	and control enters inside a catch. execution continues after catch getting over.
+	Once exception occured inside a try, then ramaining portion of try will not be executing.
+	If catch is not compatable to the rised exception/error object, then flow will terminate.
+	Catch is responsible to handle the exception which are occuring inside a try 
+	catch is not handling the exception which are occuring in outside a try.
+	Local members of try can not be used outside a try.
+	Local members of catch can not be used outside a catch.
+	Declare a variable before try,  in oreder to use inside a try, inside a catch and even after catch.
+	Errors also can handle through try-catch.
+	We can expect these 3 diefferent types of flows --::
+		1. No exception in try. Catch will not executes.
+		2. There is an exception in the try and is compatible to catch, then control enters inside a catch and after executing catch, then it contunues
+			remaining portion.
+		3. There is an exception in the try and is not compatible to the catch. Then flow terminates.
+	We can develop any number of catches to the same try.
+	Maximum one catch will execute in any of the flow.
+	Finally block will executes in
+		1. try executed fully and then finally block will executes.
+		2. while executing try, assume there is an exception and going
+		 	to compatible catch. after executing compatible catch, finally
+		  	block will executes.
+		3. while executing try, assume there is an exception and there is no
+		 	compatible catch finally block will executes and then only 
+		 	flow terminates.
+		 
+	Finally block is used to execute mandatory execution which is required for every flow. 
+	ex- closing resources, streams closing, database connection closing.
+	 
+	 
+	 Final is used for avoiding specialization.
+	 Finally block executes even there is an unhandled exception object inside a catch.
+	 Finally block is responsible to execute once control enters inside a try.
+	 If there is an unhandled exception occured before try, 
+	 then flow terminates without executing finally block.
+	 Even though return statement executing inside a try, finally block will execute.
+	 After finally block execution only control will return.
+	 Even though return statement executing inside a catch, finally block will execute.
+	 After finally block execution only control will return.
+	 If something happening before try, then finally block will not execute.
+	 If return statement executed before try, then returning the control without finally block.
+	 try-catch
+	 try-catch(s)
+	 try-catch-finally
+	 try-catch(s)-finally
+	 If System.exit(12) executes inside a try block then flow terminates without executing finally block.
+	 If System.exit(12) executes inside a catch block then flow terminates without executing finally block.

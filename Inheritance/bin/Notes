@@ -1,0 +1,8 @@
+All Attribute can be inherited by sub class. It can be static or non-static.We can use all super class member as sub-class member.
+
+
+For every class super most class is object class.
+
+
+Inheritance Is-A relation.
+Student is a type of person. sub class is type of Super class.

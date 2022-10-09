@@ -1,0 +1,24 @@
+Casting------->>>>>>>
+====================
+		Converting from one data type to another data type is casting. There are two types of casting.
+		
+Primitive casting--->>>>
+======================
+		Converting one primitive to another primitive.
+		
+Derived Casting--->>>>>>
+=====================
+		Converting from one class type to another class type which are same in the inheritance.
+		
+		byte 	<	short		<		int		<		long		<		float		<		double
+		
+		Converting of one numeric type to another numeric type.
+		Under numeric type there are three types of 
+			---Autowidening---Right hand side narrower and left side is wider.
+			If right hand side narrower than left hand side then compiler converting right hand side data type as left hand side type.
+				int j= (int)s1;
+				long v2 =(long) s1;
+				
+				2 types-->>
+					1.Auto Upcasting-->>Compiler converting subclass type to any object to superclass
+					2.Explicit Downcasting-->> We should downcasting explicitly.
